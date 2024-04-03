@@ -9,7 +9,6 @@ namespace Doodle.Core
         [SerializeField] private float _moveSpeed;
         [SerializeField] private float _castLength;
         [SerializeField] private LayerMask _groundLayer;
-
         private bool _isGrounded;
 
         void Awake()
@@ -70,7 +69,5 @@ namespace Doodle.Core
                 anim.SetBool("isJump", false);
             }
         }
-
     }
-
 }
