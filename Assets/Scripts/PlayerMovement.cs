@@ -10,6 +10,7 @@ namespace Doodle.Core
         [SerializeField] private float _castLength;
         [SerializeField] private LayerMask _groundLayer;
         private bool _isGrounded;
+        public bool IsGrounded => _isGrounded;
 
         void Awake()
         {
